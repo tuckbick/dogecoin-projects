@@ -1,6 +1,7 @@
 module.exports = {
   pathPrefix: "/dogecoin-projects",
   siteMetadata: {
+    siteUrl: 'https://dogecoinprojects.org',
     title: "Dogecoin Projects",
   },
   plugins: [
