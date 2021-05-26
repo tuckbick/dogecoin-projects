@@ -17,8 +17,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Skip Publish: ${{ github.event.inputs.skipPublish }}"
-        shell: bash
+      - run: echo "Skip Publish? ${{ github.event.inputs.skipPublish }}"
       - uses: actions/checkout@v2
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
