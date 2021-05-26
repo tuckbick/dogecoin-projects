@@ -5,6 +5,7 @@ module.exports = {
     title: "Dogecoin Projects",
   },
   plugins: [
+    "gatsby-plugin-cname",
     "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-google-analytics",
