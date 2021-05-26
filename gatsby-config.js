@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/dogecoin-projects",
   siteMetadata: {
     title: "Dogecoin Projects",
   },
